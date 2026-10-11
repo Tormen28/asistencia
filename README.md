@@ -1,12 +1,22 @@
-# Asistencia — registro básico
+# Asistencia — registro de asistencia (PHP + MySQL)
 
-Aplicación PHP mínima para el registro de asistencia sobre MySQL.
+Aplicación web mínima para registrar y consultar la asistencia sobre MySQL.
 
-```
-Asistencia/
-├── index.php      # listado / registro de asistencia
-├── conexion.php   # conexión a la base de datos
-└── estilo.css
-```
+## Estructura
 
-Ajustar en `conexion.php` los datos del servidor MySQL antes de usarla.
+| Archivo | Qué es |
+|---|---|
+| `index.php` | Listado y registro de asistencia |
+| `conexion.php` | Conexión a MySQL (servidor, usuario, contraseña, base de datos) |
+| `estilo.css` | Estilos |
+
+## Puesta en marcha (XAMPP)
+
+1. Copia la carpeta a `htdocs`.
+2. Crea la base de datos en phpMyAdmin y su tabla de asistencia.
+3. Ajusta `conexion.php` con los datos de tu MySQL.
+4. Abre `http://localhost/Asistencia/`.
+
+## Contexto
+
+Proyecto de práctica inicial de PHP + MySQL sobre XAMPP.
